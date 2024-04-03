@@ -1,0 +1,58 @@
+git init
+
+$ git remote add origin https://github.com/hristijan999/SI_2024_lab1_183061
+
+$ git add .
+$ git commit -m "first commit"
+
+$ git commit -m "Add starter code
+
+git fetch origin
+
+git pull origin --all
+
+git push origin --all
+
+git checkout -b "granka1"
+git checkout master
+git checkout -b "granka2"
+
+git checkout granka1
+
+git add .
+git commit -m "Fix wrong condition in makeBigStringFrom"
+
+git checkout granka2
+
+git add .
+git commit -m "а Call method filterOddLengthStrings in main class"
+
+git fetch origin
+
+git pull origin --all
+
+git push origin --all
+
+git checkout master
+
+git merge grank1
+
+git checkout granka2
+
+git rebase master
+
+git checkout master
+
+git merge granka2
+
+git fetch origin
+
+git pull origin --all
+
+git push origin --all
+git checkout master
+
+git add .
+
+git commit -m "final comit"
+git push origin master
