@@ -6,7 +6,7 @@ public class SILab1_1 {
         List<String> result = new ArrayList<>();
         for (String el : list) {
             if (el.length() % 2 == 0) {
-                result.add(el);
+                result.add(el);//ne ja gledam greskata :D
             }
         }
         return result;
